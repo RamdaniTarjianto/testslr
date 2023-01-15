@@ -11,9 +11,9 @@ import string
 from keras.preprocessing.text import Tokenizer, text_to_word_sequence
 from keras_preprocessing.sequence import pad_sequences
 import pickle
-from nltk.stem import WordNetLemmatizer
+# from nltk.stem import WordNetLemmatizer
 import json
-import nltk
+# import nltk
 import pandas as pd
 # nltk.download('wordnet')
 # nltk.download('omw-1.4')
