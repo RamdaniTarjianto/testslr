@@ -39,9 +39,9 @@ def remove_punctuation(texts):
     PUNCT_TO_REMOVE = string.punctuation
     return texts.translate(str.maketrans('', '', PUNCT_TO_REMOVE))
 
-def lemmatize_words(texts):
-    lemmatizer = WordNetLemmatizer()
-    return " ".join([lemmatizer.lemmatize(word) for word in texts.split()])
+# def lemmatize_words(texts):
+#     lemmatizer = WordNetLemmatizer()
+#     return " ".join([lemmatizer.lemmatize(word) for word in texts.split()])
 
 def preprocess_text(texts, max_review_length = 120):
     texts = to_lower_case(texts)
